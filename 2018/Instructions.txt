@@ -1,0 +1,11 @@
+We will start with task number 1 from year 2018: https://adventofcode.com/2018/day/1. First we have to establish some architecture for the challenges:
+•	In the solution you will create folder named C01. It means challenge 1. In this folder will be everything related to the challenge 1.
+•	In the folder C01 create a static class Challenge01.
+•	Class Challenge01 will contain a method called Run.
+•	You will also put a file with input into the folder. Don’t forget to set up in its properties in visual studio to be copied to the output folder.
+•	Now, you will call this Run method from the Main. By now, the method doesn’t do anything. We will change it:
+•	In the run method now just load the input file. Use Path.Combine method to correctly build a path to the input file. Using method Select from LINQ you should also parse it into numbers.
+•	Code for loading the number should be in separate method. This method should receive path to the file as parameter and return a collection of integers.
+•	The task itself we will do next time.
+
+With this architecture we will always just call a method run from whatever challenge number we want. Rest of the code will be always in the CXX folder
