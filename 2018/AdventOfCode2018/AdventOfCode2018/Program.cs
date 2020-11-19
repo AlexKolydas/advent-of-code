@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdventOfCode2018.C01;
+using System;
 
 namespace AdventOfCode2018
 {
@@ -6,7 +7,7 @@ namespace AdventOfCode2018
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Challenge01.Run();
         }
     }
 }
